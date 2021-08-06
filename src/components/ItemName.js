@@ -7,7 +7,7 @@ function ItemName()  {
   return (
     <FormControl variant="outlined" size="small" >
 
-    <div className="input-group">
+    <div className="input-group tim">
     <TextField className="col-8 mb-2" id="outlined-basic" label="Search item name" size="small" variant="outlined" />
         <div className="input-group-append">
         <Select

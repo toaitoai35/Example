@@ -31,10 +31,7 @@ function Table() {
                         <th scope="row">2</th>
                         <td>Ở phần thi nhảy cao thuộc nội dung 10 môn phối hợp</td>
                         <td><span className="bg-danger text-white red">High</span></td>
-                        <td><div className="input-group">
-                            <button className="btn btn-warning mb-2" type="button">Edit</button>
-                            <button className="btn btn-danger mb-2 h" type="button">Delete</button>
-                        </div>
+                        <td><ButtonAction/>
                         </td>
                     </tr>
                     <tr>
@@ -54,7 +51,7 @@ function Table() {
                         </select></td>
                         <td><div className="input-group">
                             <button className="btn btn-outline-secondary mb-2" type="button">Cancel</button>
-                            <button className="btn btn-success mb-2 h" type="button">Save</button>
+                            <button className="btn btn-success mb-2 x" type="button">Save</button>
                         </div>
                         </td>
                     </tr>

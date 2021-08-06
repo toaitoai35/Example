@@ -21,9 +21,10 @@
 }
 .Navbar .left .links{
   max-height: 80px;
+  display: contents;
 }
 .Navbar .left .links a{
-  color: #fff !important;
+  color: #fff ;
   align-items: center;
   text-decoration: none;
   margin-left: 15px;
@@ -35,7 +36,7 @@ span{
 }
 .Navbar .left i{
   display:none;
-  color: #fff !important;
+  color: #fff ;
   align-items: center;
   text-decoration: none;
   margin-left: 15px;
@@ -43,8 +44,10 @@ span{
 }
 .Navbar .left #hidden{
   display: flex;
-
 }
+  .Navbar .left .links .dropdown-default a{
+ color: black;
+  }
 .Navbar .right {
   flex: 50%;
   display: flex;

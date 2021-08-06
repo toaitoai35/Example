@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css';
-
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, a, MDBNavbarToggler, MDBCollapse, MDBDropdown,
+  MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
 
 function Navbar()  {
 const [showLinks, setShowLinks] = useState(false);
@@ -16,8 +17,19 @@ const [dropdown, setDropdown] = useState(false);
      <a href="/">Home</a>
       <a href="/features">Features</a>
       <a href="/pricing">Pricing</a> 
-      <a >Dropdown<span class="fas fa-caret-down"></span></a>
-      {/* {dropdown && <Dropdown />} */}
+    
+      <MDBDropdown>
+                <MDBDropdownToggle nav caret>
+                  Dropdown
+                </MDBDropdownToggle>
+                <MDBDropdownMenu className="dropdown-default">  
+                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+      
      </div>
      </div>
      <div className="right">

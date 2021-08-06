@@ -14,6 +14,9 @@ margin-left: 5px;
 .h{
 margin-left:5px;
 }
+.e{
+    color: #fff;
+}
 .s{
     margin-right:5px;
     margin-left:20px
@@ -36,3 +39,26 @@ margin:5px;
     margin: auto;
     margin-top: 6px;
 }
+@media only screen and (max-width: 850px){
+    
+  }
+  
+  @media only screen and (max-width: 750px){
+    
+  }
+  @media only screen and (max-width: 650px){
+    .submit{
+        display: flex;
+    }
+    .tim {
+        color: #000;
+    }
+    .e{
+     
+        margin-left: 5px;
+        width: 70px;
+    }
+    .x{
+        width: 75px;
+    }
+  }
