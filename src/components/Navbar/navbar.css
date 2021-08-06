@@ -1,0 +1,107 @@
+.Navbar {
+  background: indigo;
+    height: 70px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0.5rem ;
+    z-index: 10;
+    padding-left: 10px;  
+    /* Third Nav */
+    /* justify-content: flex-start; */
+}
+.white-text{
+  color: #fff;
+  font-size: 25px;
+}
+.Navbar .left {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Navbar .left .links{
+  max-height: 80px;
+}
+.Navbar .left .links a{
+  color: #fff !important;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size:20px;
+}
+span{
+  font-size:14px;
+  margin-left: 3px;
+}
+.Navbar .left i{
+  display:none;
+  color: #fff !important;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size:20px;
+}
+.Navbar .left #hidden{
+  display: flex;
+
+}
+.Navbar .right {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+.Navbar .right .links{
+  max-height: 80px;
+}
+.Navbar .right .icon i{
+  color: #fff !important;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size:20px;
+}
+  a:active {
+    color: #15cdfc;
+  }
+
+  @media only screen and (max-width: 850px){
+    .Navbar .left .links a{
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 750px){
+    .Navbar .left .links a{
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 650px){
+    .white-text{
+      margin-left:170px;
+    }
+    .Navbar .left i{
+      display:flex;
+  }
+  .Navbar .left .links{
+    display:none;
+  }
+  .Navbar .left #hidden{
+  position:absolute;
+  left: 0px;
+  top:50px;
+  height: 230px;
+  max-height: 120px;
+  width: 100%;
+  background-color: indigo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .Navbar .left #hidden i{
+    margin: 10px;
+    font-size:25px;
+  }
+}
+

@@ -1,4 +1,5 @@
 import './style.css';
+import ButtonAction from './ButtonAction';
 function Table() {
     return (
         <div className="container-fluid Table">
@@ -22,10 +23,8 @@ function Table() {
                         <th scope="row">1</th>
                         <td>Ở phần thi nhảy cao thuộc nội dung 10 môn phối hợp</td>
                         <td><span className="bg-secondary text-white red">Small</span></td>
-                        <td><div className="input-group">
-                            <button className="btn btn-warning mb-2" type="button">Edit</button>
-                            <button className="btn btn-danger mb-2 h" type="button">Delete</button>
-                        </div>
+                        <td>
+                            <ButtonAction/>
                         </td>
                     </tr>
                     <tr>
@@ -42,10 +41,8 @@ function Table() {
                         <th scope="row">3</th>
                         <td>Ở phần thi nhảy cao thuộc nội dung 10 môn phối hợp</td>
                         <td><span className="bg-info text-white red">Medium</span></td>
-                        <td><div className="input-group">
-                            <button className="btn btn-warning mb-2" type="button">Edit</button>
-                            <button className="btn btn-danger mb-2 h" type="button">Delete</button>
-                        </div>
+                        <td>
+                        <ButtonAction/>
                         </td>
                     </tr>
                     <tr>
