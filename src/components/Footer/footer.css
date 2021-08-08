@@ -4,24 +4,40 @@
 .FooterHeader{
     padding: 60px 60px;
   display: contents;
-    
     bottom: 0;
     width: 100%;
 }
-.email {
-    background-color: #fff;
+.enter{
+  width: 400px;
+
 }
-.input-group1{
-    width: 400px;
+.aa{
+  margin-top: -40px;
+}
+.email {
+  display: flex;
+  color: #c5b8b9 !important;
+  background-color: #4a3d6e;
+}
+.label-color{
+  color: #fff !important;
+}
+.btn-email{
+  background: #00bbff ;
+  margin-left: 10px;
+  border-radius: 30px;
+    border: 1px solid #00bbff;
+    color: #fff;
+    padding: 6px 20px;
+}
+i{
+  font-size: 12px;
 }
 .Box {
     padding: 80px 60px;
-  
- 
+    padding-bottom: 40px;
   bottom: 0;
   width: 100%;
-  
-   
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -58,7 +74,7 @@ h2 ,h3, p {
     display: grid;
   grid-template-columns: repeat(auto-fill, 
                          minmax(185px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 19px;
    
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, 
@@ -93,4 +109,51 @@ a:hover {
     text-decoration: none;
     color: #fff;
     transition: 200ms ease-in;
+}
+hr{
+  background-color: #665594;
+}
+.FooterEnd{
+  bottom: 0;
+}
+.logo{
+  background-image: url(../../images.png);
+}
+img{
+  border-radius: 50%;
+  width: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
+.end p{
+  text-align: center;
+  margin-top:-20px;
+}
+
+.icon-ss i{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #fff;
+  padding: 1em 1em;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+/*.icon {
+  text-align: center;
+} */
+.end{
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+@media only screen and (max-width: 650px){
+  .enter{
+    margin-top:50px;
+  }
+  .Row{
+    grid-gap: 25px;
+  }
 }

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import './navbar.css';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, a, MDBNavbarToggler, MDBCollapse, MDBDropdown,
-  MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
+import { MDBDropdown,MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from "mdbreact";
 
 function Navbar()  {
 const [showLinks, setShowLinks] = useState(false);
