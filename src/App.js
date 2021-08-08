@@ -2,6 +2,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 import Home from './pages/Home';
@@ -10,13 +11,14 @@ function App()  {
 
   return (
     
-    <div className="Header">
+    <div>
       <Router>
       <Navbar />
     <Route path='/' exact component={Home} />
     <Route path='/features' component={Features} />
     <Route path='/pricing' component={Pricing} />
-      </Router> 
+      </Router>
+      <Footer />
     </div>
 
   );

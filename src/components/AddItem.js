@@ -8,7 +8,8 @@ function AddItem()  {
     <Button
    className="col-12"
     variant="contained" size="large" color="primary" style={{
-      marginTop: "5px"
+      marginTop: "5px",
+      marginLeft: "-15px"
      
   }}>
   Add Item

@@ -10,13 +10,14 @@ function ButtonItem()  {
         style={{
           backgroundColor: "#28a745",
           color: "#FFFFFF",
-         
+          padding: "8px 15px"
       }}
         variant="contained" >Submit</Button>
-      <Button 
+      <Button
+    
       style={{
-        marginLeft:"3px"
-       
+        marginLeft:"3px",
+        padding: "8px 15px"
     }}
     variant="outlined">Cancel</Button>
         </div>
